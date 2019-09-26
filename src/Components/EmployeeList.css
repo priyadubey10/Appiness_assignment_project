@@ -1,0 +1,47 @@
+header{
+    width:100%;
+    background-color: blueviolet;
+    margin:auto;
+    text-align: center;
+    height: 120px;
+    padding: 50px;
+    font-size : 30px;
+}
+#employee {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin:auto;
+    padding-top:50px;   
+  }
+  
+  #employee td, #employee th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #employee tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #employee tr:hover {background-color: #ddd;}
+  
+  #employee th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .logout_button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:82%;
+    cursor: pointer;
+    
+  }
